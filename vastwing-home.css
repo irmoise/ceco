@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{ padding: 0px;background: none;}
+    nav{padding-left:50px! important;padding-right: 40px! important;background:#efefef;font-family: 'Poppins', sans-serif;} 
+@media(max-width: 1200px){nav{ padding-left:30px! important;padding-right:30px! important;}}
+@media(max-width: 1100px){nav{padding-left:20px! important; padding-right:20px! important;}}
+.logo{padding: 2px;}
+nav img{ position: absolute;width: 115px;height: 49px;margin-left: 20px; }
+@media(max-width: 1100){nav img{margin-left: 10px; width: 95px; height: 43px;}}
+nav label.navbar-brand{color: black;font-size:18px!important;font-weight: 500;position: absolute;padding-left: 15%;
+ padding-top: 27px;}
+ @media(max-width: 900px){nav label.navbar-brand { font-size: 12px;padding-left: 29%;}}
+nav ul{float: left;padding-left:700px;padding-top: 15px;background-color: #efefef;}
+@media(max-width: 1200px){nav ul{padding-left: 40%;}} 
+@media(max-width: 1100px){nav ul{padding-left: 35%; display: none;}}
+nav ul li{display:inline-block; margin: 0 5px;background-color: #efefef;}
+nav ul li a{color: blue;font-size: 17px;padding: 7px 13px;border-radius: 3px;text-decoration: none;
+    font-weight: 600;background-color: none;}
+a.active,nav ul li a:hover{background: white;transition: .5s;color: darkslategrey;text-decoration: none;}
+button a{color: blue;font-weight: 500;}
+button a:hover{text-decoration: none;background: none;color: green;}
+h2{position: absolute;top: 17%;left: 50%;width: 100%;text-align: center;transform: translate(-50%, -50%);font-size: 40px;
+        font-weight: 600;color:white; background-color:#292929;}
+@media(max-width: 1100px){h2{font-size: 32px;}}
+@media(max-width: 900px){h2{font-size: 20px;}}
+main{background:#292929;padding-top:100px;padding-bottom: 10px;height: 100%;}
+main div{padding-left: 5%;padding-right: 10%;height:500px;background:#efefef;margin-left: 15%;margin-right: 15%;
+    margin-top: 10px;margin-bottom: 10px;padding-top: 30px;border-radius: 10px;box-shadow:0 0 0 .2rem rgba(216,217,219,.5);}
+main div img{height: 90px;width: 90px;border-radius: 50%;box-shadow:0 0 0 .2rem grey;}
+@media(max-width: 1200px){main div img{height:85px;width: 85px;;border-radius: 50%;}}
+@media(max-width: 1100px){main div img{height:80px;width: 80px;;border-radius: 50%;}}
+@media(max-width: 1000px){main div img{height:60px;width: 60px;;border-radius: 50%;}}
+main div label{ margin-left: 4%;background:white; position: absolute; height: 45px; 
+     border-radius: 10px;box-shadow:none}
+@media(max-width: 1200px){main div label{padding-left: 0%; height: 35px;}}
+main div label p{ position : sticky; margin-top: 0px; background:none; top: 0; text-align: center; padding-left:3px; padding-right: 3px; box-shadow: none;padding-top: 0%; position: static;}
+main div label p strong{background: none;color:darkslategrey;font-size: 27px;  text-align: center; box-shadow: none;}
+@media(max-width: 1100px){ main div label p strong{font-size: 23px;}}
+@media(max-width: 1000px){main div label p strong{font-size: 20px;}}
+main div p {background:indigo ; padding-left: 10%; padding-right: 10%;padding-top: 5px;padding-bottom: 5px;
+    text-align: center; /* color:#288efa;*/ color : white; margin-top:3%; box-shadow:0 0 0 .2rem rgba(216,217,219,.5); 
+    border-radius: 10px; font-size:22px;}
+main div .obj { background: #efefef; }
+@media(max-width: 1200px){main div p{font-size: 19px;}}
+@media(max-width: 1100px){main div p{font-size: 17px;}}
+main div p strong{background: none;}
+.footer{background-color: black;width: 100%;height: 210px;margin-bottom: 0px;position: relative; 
+        left: 0;bottom: 0;margin-top: auto;}
+@media(max-width: 1100px){.footer{height: 320px;}}
+.footer-center{float: bottom;position: relative;background: none;height: 30px;margin-left: 20%;padding-top: 10px;
+        padding-right: 20%;}
+.footer-center p{background: none;text-align: center;color: white;}
+.footer-center ul{background-color: black;text-align: center;}
+.footer-center ul li {display: inline-block;margin: 0 5px;background-color: black; padding: 8px;}
+@media(max-width: 1100px){.footer-center ul li {padding: 1px;}}
+.footer-center ul li a {text-decoration: none;list-style: none; background: black;}
+.cite{background-color: black; color: darkslategrey;}
+.strong{background-color: black; color:darkslategrey;}
+.footer-center .social {  font-size: 25px;}
+.footer-center .social a { padding :0px 20px;}
+@media(max-width: 1100px){.footer-center .social a { padding :0px 10px; }.footer-center .social {  font-size: 20px; }}
+.fab{background-color: none; border-radius: 50%;}
+.fa-facebook{color: blue; background-color: none;}
+.fa-twitter{color: blue;}
+.fa-telegram{color: blue; background-color: none;}
+.fa-whatsapp{color: green; background-color: none;}
+.policies{background-color: black;text-align: center;}
+.policies li{display: inline-block;margin: 0 5px;background-color: black;}
+.policies li a {color: blue; text-decoration: none;list-style: none; }
+.policies li a:hover{color: white; background: none;}
+.checkbtn{font-size: 30px;color: white;float:right;padding-right: 20px;cursor: pointer;
+ display:none; background-color: #efefef;}
+ @media(max-width: 1100px){.checkbtn{display: block;}}
+#check {float:right;display:none; background-color: none;}
+@media(max-width: 1100px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 1000px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 900px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 800px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 1100px){ nav .btn{display: none;}}
+#sidebar ,#sidebar ul li{ display: none; }
+@media(max-width: 1100px){
+#sidebar {position: absolute;width: 30%;height: 100%;background:#efefef;left: -300px;transition: .5s; display: block;}
+#sidebar ul li {list-style: none;color:#fff;font-size: 20px;padding: 26px 24px;background: #efefef; display: block;
+    transition: all .5s;}
+#sidebar.active {left: 0;}
+.fas {position : relative; background-color: #efefef; margin-top: 0px; color: darkblue;}
+div ul{text-align :center ; padding-top: 15px;background-color:#efefef;}
+div ul li{ margin: 0 5px;background-color: darkblue;}
+div ul li a{color:blue;font-size: 17px;padding: 7px 15px;border-radius: 3px;text-decoration: none;
+    font-weight: 500;background-color: none;}
+div ul li a:hover{background: white;transition: .5s;color: darkslategrey;text-decoration: none;}
