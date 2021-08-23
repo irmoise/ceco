@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{ padding: 0px;background: none;}
-@media(max-width: 500px){*{background: #292929;}}
+@media(max-width: 500px){body{background: #292929;}}
     nav{padding-left:50px! important;padding-right: 40px! important;background:#efefef;font-family: 'Poppins', sans-serif;} 
 }
 @media(max-width: 1200px){nav{ padding-left:30px! important;padding-right:30px! important;}}
@@ -31,7 +31,7 @@ button a:hover{text-decoration: none;background: none;color: green;}
 @media(max-width: 900px){.company{font-size: 20px;}}
 @media only screen and(max-width: 1024px){.company{display: none;}}
 @media only screen and(max-width: 768px){.company{display: none;}}
-@media(max-width: 500px){.company{font-size: 18px;top: 10%; padding-right: 20%; padding-left: 20%;}}
+@media(max-width: 500px){.company{font-size: 18px;top: 15%; padding-right: 20%; padding-left: 20%;}}
 main{background:#292929;padding-top:100px;padding-bottom: 10px;height: 100%;}
 main div{padding-left: 5%;padding-right: 10%;height:500px;background:#efefef;margin-left: 15%;margin-right: 15%;
     margin-top: 10px;margin-bottom: 10px;padding-top: 30px;border-radius: 10px;box-shadow:0 0 0 .2rem rgba(216,217,219,.5);}
