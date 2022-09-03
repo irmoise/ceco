@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{ padding: 0px;background: none;}
+@media(max-width: 500px){body{background: #292929;}}
+    nav{padding-left:50px! important;padding-right: 40px! important;background:#efefef;font-family: 'Poppins', sans-serif;} 
+}
+@media(max-width: 1200px){nav{ padding-left:30px! important;padding-right:30px! important;}}
+@media(max-width: 1100px){nav{padding-left:20px! important; padding-right:20px! important;}}
+@media(max-width: 500px){nav{padding-left:10px! important; padding-right:10px! important; background-color: #292929;}}
+.logo{padding: 2px;}
+nav img{ position: absolute;width: 115px;height: 49px;margin-left: 20px; display: block;}
+@media(max-width: 1100px){nav img{margin-left: 9px; width: 90px; height: 40px;}}
+@media(max-width: 500px){nav img{margin-left: 1px; width: 74px; height: 36px;}}
+nav label.navbar-brand{color:#1fa0b7;font-size:18px!important;font-weight: 500;position: absolute;padding-left: 15%;
+ padding-top: 27px;}
+ @media(max-width: 900px){nav label.navbar-brand { font-size: 50%;padding-left: 30%;}}
+ @media(max-width: 720px){nav label.navbar-brand { font-size: 50%;padding-left: 20%;}}
+ @media(max-width: 500px){nav label.navbar-brand {  display: none;}}
+ @media(max-width: 280px){nav label.navbar-brand {display: none;}}
+nav ul{float: left;padding-left:700px;padding-top: 15px;background-color: #efefef;}
+@media(max-width: 1200px){nav ul{padding-left: 40%;}} 
+@media(max-width: 1100px){nav ul{padding-left: 35%; display: none;}}
+@media(max-width: 500px){nav ul{background-color: #292929;}} 
+nav ul li{display:inline-block; margin: 0 5px;background-color: #efefef;}
+nav ul li a{color: blue;font-size: 17px;padding: 7px 13px;border-radius: 3px;text-decoration: none;
+    font-weight: 600;background-color: none;}
+a.active,nav ul li a:hover{background: #1fa0b7;transition: .5s;color: darkslategrey;text-decoration: none;}
+button a{color: blue;font-weight: 500;}
+button a:hover{text-decoration: none;background: none;color: green;}
+.company{position: absolute;top:15%;left:0%;width: 100%;text-align: center;font-size: 40px;
+        font-weight: 500;color:#1fa0b7; background-color:none;}
+@media(max-width: 1100px){.company{font-size: 32px;}}
+@media(max-width: 900px){.company{font-size: 20px;}}
+@media only screen and(max-width: 1024px){.company{display: none;}}
+@media only screen and(max-width: 768px){.company{display: none;}}
+main{background:#03040f;padding-top:100px;padding-bottom: 10px;height: 100%;}
+main div{padding-left: 5%;padding-right: 10%;height:500px;background:#efefef;margin-left: 5%;margin-right: 5%;
+    margin-top: 10px;margin-bottom: 10px;padding-top: 40px;border-radius: 10px;box-shadow:0 0 0 .2rem rgba(216,217,219,.5);}
+main div img{height: 90px;width: 90px;border-radius: 50%;box-shadow:0 0 0 .2rem grey;}
+@media(max-width: 1200px){main div img{height:85px;width: 85px;;border-radius: 50%;}}
+@media(max-width: 1100px){main div img{height:80px;width: 80px;;border-radius: 50%;}}
+@media(max-width: 1000px){main div img{height:60px;width: 60px;;border-radius: 50%;}}
+@media(max-width: 500px){main div img{height:40px;width:40px;;border-radius: 50%;}}
+main div label{ margin-left: 4%;background:white; position:none; height: 45px; 
+     border-radius: 10px;box-shadow:none}
+@media(max-width: 1200px){main div label{padding-left: 0%; height: 35px;}}
+@media(max-width: 422px){main div label{ position: none;}}
+main div label p{ margin-top: 0px; background:none; top: 0; text-align: center; padding-left:3px; padding-right: 3px; box-shadow: none;padding-top: 0%; position: static;}
+main div label p strong{background: none;color:darkslategrey;font-size: 27px;  text-align: center; box-shadow: none;}
+@media(max-width: 500px){ main div label p strong{font-size: 15px;}}
+@media(max-width: 290px){ main div label p strong{font-size: 13px;}}
+main div p {background:indigo ; padding-left: 10%; padding-right: 10%;padding-top: 5px;padding-bottom: 5px;
+    text-align: center; /* color:#288efa;*/ color : white; margin-top:3%; box-shadow:0 0 0 .2rem rgba(216,217,219,.5); 
+    border-radius: 10px; font-size:22px;}
+main div .obj { background: #efefef; }
+@media(max-width: 1200px){main div p{font-size: 19px;}}
+@media(max-width: 1100px){main div p{font-size: 17px;}}
+main div p strong{background: none;}
+.footer{background-color: black;width: 100%;height: 210px;margin-bottom: 0px;position: relative; 
+        left: 0;bottom: 0;margin-top: auto;}
+@media(max-width: 1100px){.footer{height: 320px;}}
+@media(max-width: 500px){.footer{height: 400px;}}
+.footer{background-color: black;width: 100%;height: 210px;margin-bottom: 0px;position: relative; 
+        left: 0;bottom: 0;margin-top: auto;}
+@media(max-width: 1100px){.footer{height: 320px;}}
+@media(max-width: 500px){.footer{height: 400px;}}
+.footer-center{float: bottom;position: relative;background: none;height: 30px;margin-left: 20%;padding-top: 10px;
+        padding-right: 20%;}
+.footer-center p{background: none;text-align: center;color: white;}
+.footer-center ul{background-color: black;text-align: center;}
+.footer-center ul li {display: inline-block;margin: 0 5px;background-color: black; padding: 8px;}
+@media(max-width: 1100px){.footer-center ul li {padding: 1px;}}
+.footer-center ul li a {text-decoration: none;list-style: none; background: black;}
+.cite{background-color: black; color: darkslategrey;}
+.strong{background-color: black; color:darkslategrey;}
+.footer-center .social {  font-size: 25px;}
+.footer-center .social a { padding :0px 20px;}
+@media(max-width: 1100px){.footer-center .social a { padding :0px 10px; }.footer-center .social {  font-size: 20px; }}
+@media(max-width: 422px){.footer-center .social a { padding :0px 6px; }.footer-center .social {  font-size: 17px; }}
+.fab{background-color: none; border-radius: 50%;}
+.fa-facebook{color: blue; background-color:white;}
+.fa-twitter{color: blue; background-color:none;}
+.fa-telegram{color: blue; background-color:white;}
+.fa-whatsapp{color: white; background-color:green;}
+ @media(max-width: 500px){.fab {background-color: none; font-size: 25px;}}
+.policies{background-color: black;text-align: center;position: absolute;}
+.policies li{display: inline-block;margin: 0 5px;background-color: black;}
+.policies li a {color: blue; text-decoration: none;list-style: none; }
+.policies li a:hover{color: white; background: none;}
+.checkbtn{font-size: 30px;color: white;float:right;padding-right: 20px;cursor: pointer;
+ display:none; background-color: #efefef;}
+ @media(max-width: 1100px){.checkbtn{display: block;}}
+ @media(max-width: 500px){.checkbtn{background-color: #292929;}}
+#check {float:right;display:none; background-color: none;}
+@media(max-width: 1100px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 1000px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 900px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 800px){.checkbtn {margin-left: 90%;}}
+@media(max-width: 1100px){ nav .btn{display: none;}}
+#sidebar ,#sidebar ul li{ display: none; }
+@media(max-width: 1100px){
+#sidebar {position: absolute;width: 100%;height: 100%;background:#efefef;left: -100%;transition: .5s; display: block;}}
+#sidebar ul li {list-style: none;color:#fff;font-size: 20px;padding: 26px 24px;background: #efefef; display: block;
+    transition: all .5s;}
+#sidebar.active {left: 0;}
+@media(max-width: 422px){#sidebar{width: 100%;} #sidebar ul li{font-size: 15px;}}
+@media(max-width: 300px){#sidebar{width: 100%;} #sidebar ul li{font-size: 10px;}}
+.fas {position : relative; background-color: #efefef; margin-top: 0px; color: darkblue;}
+@media(max-width: 500px){.fas{background-color: #292929; color: white;}}
+div ul{text-align :center ; padding-top: 15px;background-color:#efefef;}
+div ul li{ margin: 0 5px;background-color: darkblue;}
+div ul li a{color:blue;font-size: 17px;padding: 7px 15px;border-radius: 3px;text-decoration: none;
+    font-weight: 500;background-color: none;}
+div ul li a:hover{background: white;transition: .5s;color: darkslategrey;text-decoration: none;}
+
